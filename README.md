@@ -78,11 +78,11 @@ To provide additional context, I included the number of job postings associated 
 
 | Skills | Job Demand | Average Annual Salary |
 | --- | --- | --- |
-| sql | 3083 | 96545 |
-| excel | 2143 | 86418 |
-| python | 1840 | 101511 |
-| tableau | 1659 | 97978 |
-| r | 1659 | 98797 | 
+| sql | 3083 | $96,545 |
+| excel | 2143 | $8$6,418 |
+| python | 1840 | $101,511 |
+| tableau | 1659 | $97,978 |
+| r | 1659 | $98,797 | 
 
 *Note: Job posting counts in this analysis represent postings with reported annual salaries.*
 
