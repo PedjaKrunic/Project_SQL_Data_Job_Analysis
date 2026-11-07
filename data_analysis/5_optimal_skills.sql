@@ -48,3 +48,8 @@ INNER JOIN top_paying_skills AS tps
     ON tds.skill_id = tps.skill_id
 WHERE tds.demand_count >= 10
 ORDER BY tds.demand_count DESC, tps.avg_salary DESC
+
+
+SELECT *
+FROM job_postings_fact
+LIMIT 5

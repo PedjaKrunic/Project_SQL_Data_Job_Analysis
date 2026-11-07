@@ -17,7 +17,21 @@ By analyzing job postings and connecting job and skill-related tables, I investi
 - **VS Code:** SQL development environment using SQLTools.
 - **Git & GitHub:** Version control and project documentation.
 
-## 4. Analysis
+## 4. Data Model & Documentation
+
+The database consists of four related tables organized using a dimensional modeling approach.
+
+The data model illustrates the relationships between job postings, companies, and required skills, including the bridge table used to resolve the many-to-many relationship between job postings and skills.
+
+### Data Model
+
+![Database Data Model](assets/data_model_job_analysis.png)
+
+### Data Catalog
+
+For a detailed overview of the database structure, including table descriptions, column definitions, data types, primary keys, and foreign keys, see the [Data Catalog](assets/data_catalog.md).
+
+## 5. Analysis
 
 The project addresses five key business questions:
 
@@ -79,7 +93,7 @@ The analysis focuses specifically on remote Data Analyst positions with reported
 
 This analysis helps identify technical skills that are both frequently requested and associated with competitive salaries.
 
-## 5. What I Learned
+## 6. What I Learned
 
 Through this project, I strengthened my practical SQL skills and gained experience with:
 
@@ -91,7 +105,7 @@ Through this project, I strengthened my practical SQL skills and gained experien
 - Translating business questions into actionable SQL queries.
 - Evaluating the relationship between technical skills, job demand, and salaries.
 
-## 6. Conclusions
+## 7. Conclusions
 
 This project demonstrates how SQL can be used to transform raw job posting data into meaningful insights about the Data Analyst job market.
 
@@ -107,3 +121,4 @@ Special thanks to [Luke Barousse](https://www.youtube.com/@LukeBarousse) for his
 
 This project was developed as a practical exercise to strengthen my SQL skills and apply data analysis techniques to real-world job market data.
 
+-- Dodaj Data Catalog i Star Schemu
