@@ -32,8 +32,8 @@ top_paying_skills AS (
     INNER JOIN skills_dim AS sd 
         ON sjd.skill_id = sd.skill_id
     WHERE jpf.salary_year_avg IS NOT NULL AND
-          jpf.job_work_from_home = True
-    AND jpf.job_title_short = 'Data Analyst'
+          jpf.job_work_from_home = True AND
+          jpf.job_title_short = 'Data Analyst'
     GROUP BY sd.skill_id
 )   
 
@@ -47,4 +47,4 @@ FROM top_demand_skills AS tds
 INNER JOIN top_paying_skills AS tps
     ON tds.skill_id = tps.skill_id
 WHERE tds.demand_count >= 10
-ORDER BY tps.avg_salary DESC, tds.demand_count DESC
+ORDER BY tds.demand_count DESC, tps.avg_salary DESC

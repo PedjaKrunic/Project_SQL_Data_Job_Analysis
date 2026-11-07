@@ -26,10 +26,6 @@ WITH top_paying_jobs AS (
     LIMIT 10
 )
 
-SELECT DISTINCT job_title
-FROM top_paying_jobs;
-
-
 SELECT 
     tpj.*,
     sd.skills
