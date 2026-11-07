@@ -120,5 +120,3 @@ The findings can help guide career development by highlighting skills that are f
 Special thanks to [Luke Barousse](https://www.youtube.com/@LukeBarousse) for his excellent free SQL tutorial on YouTube, which provided the foundation and inspiration for this project.
 
 This project was developed as a practical exercise to strengthen my SQL skills and apply data analysis techniques to real-world job market data.
-
--- Dodaj Data Catalog i Star Schemu
